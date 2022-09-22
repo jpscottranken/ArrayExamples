@@ -22,9 +22,9 @@ namespace ArrayLookupGUI
         int[] grades        = { 91, 88, 100, 71, 60 };
 
         //  Global variables
-        string searchStr;
-        string gradeStr;
-        bool found;
+        string searchStr;   //  Used for fn & ln search
+        string gradeStr;    //  Used for a grade search
+        bool found;         //  Value found/not found
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
@@ -37,8 +37,8 @@ namespace ArrayLookupGUI
 
             switch (searchVal)
             {
-                case -1:                //  Combo Box empty
-                case 0:                 //  Combo Box Select Array
+                case -1:                 //  Combo Box empty
+                case  0:                 //  Combo Box Select Array
                     showMessage("You Must Enter An Array To Search",
                                 "NO ARRAY NAME CHOSEN!");
                     cboArrayToSearch.Focus();
@@ -56,22 +56,25 @@ namespace ArrayLookupGUI
 
                 case 3:                 //  Combo Box Grades
                     found = gradeSearch(grades);
-                    displayResults(found, gradeStr.ToString());
+                    displayResults(found, gradeStr);
                     break;
 
                 default:
-                    showMessage("You Must Enter An Array To Search",
-                                "NO ARRAY NAME CHOSEN!");
+                    showMessage("Bad Option",
+                                "THIS SHOULD NEVER BE HIT!");
                     break;
             }
         }
 
+        //  This function handles firstName array
+        //  and lastname array searches
         private bool stringSearch(string[] s)
         {
             bool retVal = false;
 
             searchStr = txtSearchValue.Text;
 
+            //  Check for blank search value input
             if (searchStr == "")
             {
                 showMessage("You Must Enter A Value To Search For",
@@ -80,10 +83,19 @@ namespace ArrayLookupGUI
                 return retVal;
             }
 
+            //  Loop through the array (firstNames or lastNames)
+            //  If a match is found, set retVal to true and
+            //  break out of loop.
+            //
+            //  If the entire array has been searched, and
+            //  no match was found, 'keep" retVal false
+            //  (initial value).
+            //
+            //  Finally, return retVal
             for (int lcv = 0; lcv < firstNames.Length; ++lcv)
             {
 
-                if (searchStr.ToUpper().Equals(firstNames[lcv].ToUpper()))
+                if (searchStr.ToUpper().Equals(s[lcv].ToUpper()))
                 {
                     retVal = true;
                     break;
@@ -97,9 +109,18 @@ namespace ArrayLookupGUI
         {
             bool retVal = false;
 
+            //  Set gradeStr to value in textbox
             gradeStr = txtSearchValue.Text;
+
+            //  Convert gradeStr to an int
             int gradeInt = Convert.ToInt32(gradeStr);
 
+            //  Make range chaeck
+            //
+            //  If grade inputted out-of-range
+            //  (< 0 or > 100), print out error
+            //  message, clear out textbox, set
+            //  focus to textbox and return retVal.
             if ((gradeInt < MINGRADE) ||
                 (gradeInt > MAXGRADE))
             {
@@ -111,6 +132,15 @@ namespace ArrayLookupGUI
                 return retVal;
             }
 
+            //  Loop through the array (grades)
+            //  If a match is found, set retVal to true and
+            //  break out of loop.
+            //
+            //  If the entire array has been searched, and
+            //  no match was found, 'keep" retVal false
+            //  (initial value).
+            //
+            //  Finally, return retVal
             for (int lcv = 0; lcv < grades.Length; ++lcv)
             {
 
@@ -124,6 +154,11 @@ namespace ArrayLookupGUI
             return retVal;
         }
 
+        //  Display the results as:
+        //  whatever name WAS FOUND
+        //  whatever name WAS NOT FOUND
+        //  whatever grade WAS FOUND
+        //  whatever grade WAS NOT FOUND
         public void displayResults(bool found, string str)
         {
             string res = (found) ? WAS : WASNOT;
@@ -135,13 +170,6 @@ namespace ArrayLookupGUI
         private void btnClear_Click(object sender, EventArgs e)
         {
             clearAndSetFocus();
-        }
-
-        private void showMessage(string msg, string title)
-        {
-            MessageBox.Show(msg, title,
-                            MessageBoxButtons.OK,
-                            MessageBoxIcon.Error);
         }
 
         private void clearAndSetFocus()
@@ -171,9 +199,18 @@ namespace ArrayLookupGUI
             }
         }
 
+        //  Assure that combo box it is set to
+        //  select array when program run begins.
         private void frmArrayLookup_Load(object sender, EventArgs e)
         {
             cboArrayToSearch.SelectedIndex = 0;
+        }
+
+        private void showMessage(string msg, string title)
+        {
+            MessageBox.Show(msg, title,
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Error);
         }
     }
 }

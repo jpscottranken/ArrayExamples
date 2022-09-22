@@ -5,3 +5,4 @@ C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupConsole\obj\Debu
 C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupConsole\obj\Debug\ArrayLookupConsole.exe
 C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupConsole\obj\Debug\ArrayLookupConsole.pdb
 C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupConsole\obj\Debug\ArrayLookupConsole.csproj.AssemblyReference.cache
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupConsole\obj\Debug\ArrayLookupConsole.csproj.SuggestedBindingRedirects.cache
