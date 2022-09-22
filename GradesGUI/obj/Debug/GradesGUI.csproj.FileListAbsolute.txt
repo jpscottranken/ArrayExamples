@@ -1,0 +1,11 @@
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesGUI\bin\Debug\GradesGUI.exe.config
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesGUI\bin\Debug\GradesGUI.exe
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesGUI\bin\Debug\GradesGUI.pdb
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesGUI\obj\Debug\GradesGUI.csproj.AssemblyReference.cache
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesGUI\obj\Debug\GradesGUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesGUI\obj\Debug\GradesGUI.frmGradesArray.resources
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesGUI\obj\Debug\GradesGUI.Properties.Resources.resources
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesGUI\obj\Debug\GradesGUI.csproj.GenerateResource.cache
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesGUI\obj\Debug\GradesGUI.csproj.CoreCompileInputs.cache
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesGUI\obj\Debug\GradesGUI.exe
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesGUI\obj\Debug\GradesGUI.pdb

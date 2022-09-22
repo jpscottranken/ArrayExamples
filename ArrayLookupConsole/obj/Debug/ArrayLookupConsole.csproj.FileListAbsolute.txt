@@ -1,0 +1,7 @@
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupConsole\bin\Debug\ArrayLookupConsole.exe.config
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupConsole\bin\Debug\ArrayLookupConsole.exe
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupConsole\bin\Debug\ArrayLookupConsole.pdb
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupConsole\obj\Debug\ArrayLookupConsole.csproj.CoreCompileInputs.cache
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupConsole\obj\Debug\ArrayLookupConsole.exe
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupConsole\obj\Debug\ArrayLookupConsole.pdb
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupConsole\obj\Debug\ArrayLookupConsole.csproj.AssemblyReference.cache

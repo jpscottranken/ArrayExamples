@@ -1,0 +1,7 @@
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesConsole\bin\Debug\GradesConsole.exe.config
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesConsole\bin\Debug\GradesConsole.exe
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesConsole\bin\Debug\GradesConsole.pdb
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesConsole\obj\Debug\GradesConsole.csproj.AssemblyReference.cache
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesConsole\obj\Debug\GradesConsole.csproj.CoreCompileInputs.cache
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesConsole\obj\Debug\GradesConsole.exe
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\GradesConsole\obj\Debug\GradesConsole.pdb

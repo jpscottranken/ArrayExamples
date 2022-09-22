@@ -1,0 +1,10 @@
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupGUI\bin\Debug\ArrayLookupGUI.exe.config
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupGUI\bin\Debug\ArrayLookupGUI.exe
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupGUI\bin\Debug\ArrayLookupGUI.pdb
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupGUI\obj\Debug\ArrayLookupGUI.csproj.AssemblyReference.cache
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupGUI\obj\Debug\ArrayLookupGUI.frmArrayLookup.resources
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupGUI\obj\Debug\ArrayLookupGUI.Properties.Resources.resources
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupGUI\obj\Debug\ArrayLookupGUI.csproj.GenerateResource.cache
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupGUI\obj\Debug\ArrayLookupGUI.csproj.CoreCompileInputs.cache
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupGUI\obj\Debug\ArrayLookupGUI.exe
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\ArrayLookupGUI\obj\Debug\ArrayLookupGUI.pdb

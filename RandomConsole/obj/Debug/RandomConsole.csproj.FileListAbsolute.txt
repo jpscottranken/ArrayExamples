@@ -1,0 +1,7 @@
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\RandomConsole\bin\Debug\RandomConsole.exe.config
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\RandomConsole\bin\Debug\RandomConsole.exe
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\RandomConsole\bin\Debug\RandomConsole.pdb
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\RandomConsole\obj\Debug\RandomConsole.csproj.AssemblyReference.cache
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\RandomConsole\obj\Debug\RandomConsole.csproj.CoreCompileInputs.cache
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\RandomConsole\obj\Debug\RandomConsole.exe
+C:\Users\jpscott\Desktop\ArrayExamples\ArrayExamples\RandomConsole\obj\Debug\RandomConsole.pdb
